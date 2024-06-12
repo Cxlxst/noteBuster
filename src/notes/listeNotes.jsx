@@ -7,7 +7,7 @@ export const ListeNotes = ({liste}) => {
         <div class="listeNotes">
             {
                 liste.map((value, index)=>{
-                    return <FicheNote key={index} idEleve={value.idPersonne} idMatiere={value.id} bareme={value.bareme} note={value.note}/>
+                    return <FicheNote key={index} idPersonne={value.idPersonne} idMatiere={value.id} bareme={value.bareme} note={value.note}/>
                 })
             }
         </div>
