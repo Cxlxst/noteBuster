@@ -3,6 +3,7 @@ import { FichePersonne } from './personnes/fichePersonne/FichePersonne';
 import { ListePersonne } from './personnes/listePersonne';
 import { personne } from './personnes/personnes';
 import { classe } from './personnes/classe';
+import { ListeClasse } from './personnes/listeClasse';
 
 
 function App() {
@@ -15,15 +16,8 @@ function App() {
       
       <h1>Liste des clones</h1>
       <p>{classe.length} personne.s dans cette liste</p>
-      <ListePersonne liste={classe}/>
-     
-      {/* {
-        personne.map((value, index) => {
-          return (
-            <FichePersonne key={index} nom={value.nom} prenom={value.prenom}/>
-          )
-        })
-      } */}
+      <ListeClasse liste={classe}/>
+    
     </>
   );
 }
