@@ -2,12 +2,20 @@ import { FicheClasse} from "./ficheClasse/FicheClasse"
 
 export const ListeClasse = ({liste}) => {
 
+
     return (
         
         <div>
             {
                 liste.map((value, index)=>{
-                    return <FicheClasse key={index} id={value.id} titre={value.titre} />
+                    return (
+                        <div key={index}>
+                            <FicheClasse id={value.id} titre={value.titre} />
+                            <a href={`/eleve-par-classe/${value.id}`}>
+                                Go to Page {value.id}
+                            </a>
+                        </div>
+                    );
                 })
             }
         </div>
