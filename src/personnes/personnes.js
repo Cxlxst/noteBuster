@@ -5,7 +5,7 @@ import ppC_G from './assets/CECE_GRIS.png'
 import ppL_G from './assets/LULU_GRIS.png'
 import ppF_G from './assets/FLOFLO_GRIS.png'
 
-export let personnage = [
+export let personne = [
     {
         nom: "TERPIN",
         prenom: "Céleste",
@@ -37,7 +37,7 @@ export let personnage = [
 ]
 
 
-export let personnageClone = [
+export let personneClone = [
     {
         nom: "TERPIN B",
         prenom: "Céleste  B",

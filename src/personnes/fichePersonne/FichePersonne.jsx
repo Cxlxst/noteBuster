@@ -1,10 +1,10 @@
 
 import { Statistique } from "../statistique/Statistique";
-import "./FichePersonnage.css"
+import "./FichePersonne.css"
 
-export const FichePersonnage = ({ nom, prenom, image, dateNaissance, genre }) => {
+export const FichePersonne = ({ nom, prenom, image, dateNaissance, genre }) => {
     return (
-        <div className="personnage">
+        <div className="personne">
             <img src={image}></img>
             <h3>
                 {nom} {prenom}

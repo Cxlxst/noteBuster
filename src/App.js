@@ -1,8 +1,8 @@
 import './App.css';
-import { FichePersonnage } from './personnages/fichePersonnage/FichePersonnage';
-import { ListePersonnage } from './personnages/listePersonnage';
-import { personnage } from './personnages/personnages';
-import { personnageClone } from './personnages/personnages';
+import { FichePersonne } from './personnes/fichePersonne/FichePersonne';
+import { ListePersonne } from './personnes/listePersonne';
+import { personne } from './personnes/personnes';
+import { personneClone } from './personnes/personnes';
 
 
 function App() {
@@ -10,17 +10,17 @@ function App() {
     <>
 
       <h1>Liste 1</h1>
-      <p>{personnage.length} personne.s dans cette liste</p>
-      <ListePersonnage liste={personnage}/>
+      <p>{personne.length} personne.s dans cette liste</p>
+      <ListePersonne liste={personne}/>
       
       <h1>Liste des clones</h1>
-      <p>{personnageClone.length} personne.s dans cette liste</p>
-      <ListePersonnage liste={personnageClone}/>
+      <p>{personneClone.length} personne.s dans cette liste</p>
+      <ListePersonne liste={personneClone}/>
      
       {/* {
-        personnage.map((value, index) => {
+        personne.map((value, index) => {
           return (
-            <FichePersonnage key={index} nom={value.nom} prenom={value.prenom}/>
+            <FichePersonne key={index} nom={value.nom} prenom={value.prenom}/>
           )
         })
       } */}
