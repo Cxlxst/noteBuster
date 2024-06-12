@@ -14,8 +14,8 @@ function App() {
       <p>{personne.length} personne.s dans cette liste</p>
       <ListePersonne liste={personne}/>
       
-      <h1>Liste des clones</h1>
-      <p>{classe.length} personne.s dans cette liste</p>
+      <h1>Liste des classes</h1>
+      <p>{classe.length} classe </p>
       <ListeClasse liste={classe}/>
     
     </>
