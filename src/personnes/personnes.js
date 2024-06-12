@@ -1,9 +1,7 @@
 import ppC from './assets/CECE.png'
 import ppL from './assets/LULU.png'
 import ppF from './assets/FLOFLO.png'
-import ppC_G from './assets/CECE_GRIS.png'
-import ppL_G from './assets/LULU_GRIS.png'
-import ppF_G from './assets/FLOFLO_GRIS.png'
+import ppH from './assets/HECTOR.png'
 
 export let personne = [
     {
@@ -37,11 +35,9 @@ export let personne = [
         id: 4,
         nom: "LEVESQUE",
         prenom: "Hector",
-        // image: ppF,
+        image: ppH,
         dateNaissance: "31/05/2001",
         genre: "Homme",
         idClasse: 2
     }
 ]
-
-
