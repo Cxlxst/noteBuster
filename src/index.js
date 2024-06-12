@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import EleveParClasse from './personnes/EleveParClasse'
+import NotesParEleve from './personnes/NotesParEleve'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -13,6 +14,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/eleve-par-classe/:id" element={<EleveParClasse />}/> 
+        <Route path="/notes/:id" element={<NotesParEleve/>}/> 
       </Routes>
     </Router>
   </React.StrictMode>

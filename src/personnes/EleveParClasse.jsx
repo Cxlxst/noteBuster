@@ -19,7 +19,7 @@ export const EleveParClasse = () => {
                 
                 <div key={eleve.id}>
                     <FichePersonne key={eleve.id} nom={eleve.nom} prenom={eleve.prenom} image={eleve.image} dateNaissance={eleve.dateNaissance} genre={eleve.genre}/>
-                    <a href={`/eleve-par-classe/${eleve.id}`}>
+                    <a href={`/notes/${eleve.id}`}>
                         Voir les notes de {eleve.prenom} {eleve.nom}
                     </a>
                 </div>
