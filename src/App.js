@@ -28,6 +28,15 @@ function App() {
       <h1>Les notes</h1>
       <p>{notes.length} notes disponibles</p>
       <ListeNotes liste={notes}/>
+
+      <a href={`/eleve`}>
+        Voir la liste des élèves
+      </a>
+
+      <a href={`/professeur`}>
+        Voir la liste des professeurs
+      </a>
+
     </>
   );
 }

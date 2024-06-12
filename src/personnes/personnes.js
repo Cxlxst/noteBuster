@@ -11,7 +11,8 @@ export let personne = [
         image: ppC,
         dateNaissance: "13/01/2003",
         genre: "Femme",
-        idClasse: 1
+        idClasse: 1,
+        role:1
     },
     {
         id: 2,
@@ -20,7 +21,8 @@ export let personne = [
         image: ppL,
         dateNaissance: "12/02/2003",
         genre: "Homme",
-        idClasse: 1
+        idClasse: 1,
+        role:1
     },
     {
         id: 3,
@@ -29,7 +31,8 @@ export let personne = [
         image: ppF,
         dateNaissance: "18/01/2003",
         genre: "Homme",
-        idClasse: 1
+        idClasse: 1,
+        role:1
     },
     {
         id: 4,
@@ -38,6 +41,7 @@ export let personne = [
         image: ppH,
         dateNaissance: "31/05/2001",
         genre: "Homme",
-        idClasse: 2
+        idClasse: 2,
+        role:2
     }
 ]
