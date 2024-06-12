@@ -6,6 +6,12 @@ export let notes = [
         note: 10
     },
     {
+        idPersonne: 1,
+        idMatiere: 16,
+        bareme: 20,
+        note: 15
+    },
+    {
         idPersonne: 2,
         idMatiere: 2,
         bareme: 20,

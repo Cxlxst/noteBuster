@@ -8,7 +8,7 @@ export const FicheNote = ({ idPersonne, idMatiere, bareme, note }) => {
     };
     
     const getMatiereById = (idMatiere) => {
-        return matieres.find(matieres => matieres.idMatiere === idMatiere);
+        return matieres.find(matieres => matieres.id === idMatiere);
     };
 
     const Eleve = getEleveById(idPersonne);

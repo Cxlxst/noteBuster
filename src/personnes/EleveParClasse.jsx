@@ -16,8 +16,6 @@ export const EleveParClasse = () => {
     return (
         <div>
             {classeTitre && <h1>{classeTitre.titre}</h1>}
-            {elevesClasse.map(eleve => (
-
             <div class="listeEleveParClasse">
                 {elevesClasse.map(eleve => (
                     
@@ -30,7 +28,6 @@ export const EleveParClasse = () => {
 
                 ))}
             </div>
-            ))}
         </div>
     );
 }
