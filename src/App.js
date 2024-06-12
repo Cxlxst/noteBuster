@@ -1,5 +1,4 @@
 import './App.css';
-// import { FichePersonne } from './personnes/fichePersonne/FichePersonne';
 import { personne } from './personnes/personnes';
 import { ListePersonne } from './personnes/listePersonne';
 import { classe } from './personnes/classe';
@@ -18,7 +17,7 @@ function App() {
       <ListePersonne liste={personne}/>
       
       <h1>Liste des classes</h1>
-      <p>{classe.length} classe.s au total</p>
+      <p>{classe.length} classe </p>
       <ListeClasse liste={classe}/>
     
 
