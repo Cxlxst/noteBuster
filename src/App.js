@@ -2,7 +2,7 @@ import './App.css';
 import { FichePersonne } from './personnes/fichePersonne/FichePersonne';
 import { ListePersonne } from './personnes/listePersonne';
 import { personne } from './personnes/personnes';
-import { classe } from './personnes/personnes';
+import { classe } from './personnes/classe';
 
 
 function App() {
