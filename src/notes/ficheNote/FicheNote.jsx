@@ -4,7 +4,7 @@ import "./FicheNote.css"
 
 export const FicheNote = ({ idPersonne, idMatiere, bareme, note }) => {
     const getEleveById = (idPersonne) => {
-        return personne.find(personne => personne.idPersonne === idPersonne);
+        return personne.find(personne => personne.id === idPersonne);
     };
     
     const getMatiereById = (idMatiere) => {
