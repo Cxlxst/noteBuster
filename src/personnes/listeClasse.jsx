@@ -5,7 +5,7 @@ export const ListeClasse = ({liste}) => {
 
     return (
         
-        <div>
+        <div class="listePersonne">
             {
                 liste.map((value, index)=>{
                     return (
