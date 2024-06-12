@@ -7,56 +7,55 @@ import ppF_G from './assets/FLOFLO_GRIS.png'
 
 export let personne = [
     {
+        id: 1,
         nom: "TERPIN",
         prenom: "Céleste",
         image: ppC,
         dateNaissance: "13/01/2003",
-        genre: "Femme"
+        genre: "Femme",
+        idClasse: 1
     },
     {
+        id: 2,
         nom: "TREILLE",
         prenom: "Lucas",
         image: ppL,
         dateNaissance: "12/02/2003",
-        genre: "Homme"
+        genre: "Homme",
+        idClasse: 1
     },
     {
+        id: 3,
         nom: "GERMAIN",
         prenom: "Florian",
         image: ppF,
         dateNaissance: "18/01/2003",
-        genre: "Homme"
+        genre: "Homme",
+        idClasse: 1
     },
     {
+        id: 4,
         nom: "LEVESQUE",
         prenom: "Hector",
         // image: ppF,
         dateNaissance: "31/05/2001",
-        genre: "Homme"
+        genre: "Homme",
+        idClasse: 2
     }
 ]
 
 
-export let personneClone = [
+export let classe = [
     {
-        nom: "TERPIN B",
-        prenom: "Céleste  B",
-        image: ppC_G,
-        dateNaissance: "13/01/2003",
-        genre: "Femme"
+        id: 1,
+        titre: "BTS"
     },
     {
-        nom: "TREILLE B",
-        prenom: "Lucas B",
-        image: ppL_G,
-        dateNaissance: "12/02/2003",
-        genre: "Homme"
+        id: 2,
+        titre:  "Bachelor"
     },
     {
-        nom: "GERMAIN B",
-        prenom: "Florian B",
-        image: ppF_G,
-        dateNaissance: "18/01/2003",
-        genre: "Homme"
+        id: 3,
+        titre: "Mastère"
     }
 ]

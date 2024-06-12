@@ -2,7 +2,7 @@ import './App.css';
 import { FichePersonne } from './personnes/fichePersonne/FichePersonne';
 import { ListePersonne } from './personnes/listePersonne';
 import { personne } from './personnes/personnes';
-import { personneClone } from './personnes/personnes';
+import { classe } from './personnes/personnes';
 
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
       <ListePersonne liste={personne}/>
       
       <h1>Liste des clones</h1>
-      <p>{personneClone.length} personne.s dans cette liste</p>
-      <ListePersonne liste={personneClone}/>
+      <p>{classe.length} personne.s dans cette liste</p>
+      <ListePersonne liste={classe}/>
      
       {/* {
         personne.map((value, index) => {

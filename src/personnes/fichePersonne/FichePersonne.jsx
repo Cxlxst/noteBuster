@@ -1,5 +1,4 @@
 
-import { Statistique } from "../statistique/Statistique";
 import "./FichePersonne.css"
 
 export const FichePersonne = ({ nom, prenom, image, dateNaissance, genre }) => {
