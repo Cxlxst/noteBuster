@@ -2,7 +2,7 @@ import "./FicheMatiere.css"
 
 export const FicheMatiere = ({ id, nom }) => {
     return (
-        <div class="matiere">
+        <div className="matiere">
             <h3>{nom}</h3>
             <p>{id}</p>            
         </div>

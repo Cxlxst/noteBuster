@@ -13,14 +13,11 @@ export const Professeur = () => {
             
             <h1>Liste des professeurs</h1>
 
-            <div class="listeEleveParClasse">
+            <div className="listeEleveParClasse">
                 {listeProfesseur.map(eleve => (
                     
                     <div key={eleve.id} >
                         <FichePersonne key={eleve.id} nom={eleve.nom} prenom={eleve.prenom} image={eleve.image} dateNaissance={eleve.dateNaissance} genre={eleve.genre}/>
-                        <a href={`/eleve-par-classe/${eleve.id}`}>
-                            Voir les notes de {eleve.prenom} {eleve.nom}
-                        </a>
                     </div>
 
                 ))}

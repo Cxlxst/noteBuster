@@ -3,11 +3,15 @@ import "./listeNotes.css"
 
 export const ListeNotes = ({liste}) => {
 
+
+    console.log(liste)
+
+
     return (
-        <div class="listeNotes">
+        <div className="listeNotes">
             {
                 liste.map((value, index)=>{
-                    return <FicheNote key={index} idPersonne={value.idPersonne} idMatiere={value.id} bareme={value.bareme} note={value.note}/>
+                    return <FicheNote idPersonne={value.idPersonne} idMatiere={value.idMatiere} bareme={value.bareme} note={value.note}/>
                 })
             }
         </div>

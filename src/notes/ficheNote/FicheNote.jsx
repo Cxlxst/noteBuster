@@ -2,6 +2,7 @@ import { personne } from '../../personnes/personnes';
 import { matieres } from '../../matieres/matieres';
 import "./FicheNote.css"
 
+
 export const FicheNote = ({ idPersonne, idMatiere, bareme, note }) => {
     const getEleveById = (idPersonne) => {
         return personne.find(personne => personne.id === idPersonne);
@@ -16,7 +17,7 @@ export const FicheNote = ({ idPersonne, idMatiere, bareme, note }) => {
 
 
     return (
-        <div class="note">
+        <div className="note">
             <h3>Élève : {Eleve.nom} {Eleve.prenom}</h3>
             <h4>Matière : {Matiere.nom}</h4>
             <p>{note}/{bareme}</p>            

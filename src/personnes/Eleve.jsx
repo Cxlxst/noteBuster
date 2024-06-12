@@ -13,7 +13,7 @@ export const Eleve = () => {
             
             <h1>Liste des élèves</h1>
 
-            <div class="listeEleveParClasse">
+            <div className="listeEleveParClasse">
                 {listeEleve.map(eleve => (
                     
                     <div key={eleve.id} >

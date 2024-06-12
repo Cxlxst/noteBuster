@@ -4,7 +4,7 @@ import "./listeMatieres.css"
 export const ListeMatieres = ({liste}) => {
 
     return (
-        <div class="listeMatieres">
+        <div className="listeMatieres">
             {
                 liste.map((value, index)=>{
                     return <FicheMatiere key={index} idMatiere={value.id} nom={value.nom}/>

@@ -16,7 +16,7 @@ export const EleveParClasse = () => {
     return (
         <div>
             {classeTitre && <h1>{classeTitre.titre}</h1>}
-            <div class="listeEleveParClasse">
+            <div className="listeEleveParClasse">
                 {elevesClasse.map(eleve => (
                     
                     <div key={eleve.id} >

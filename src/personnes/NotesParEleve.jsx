@@ -4,6 +4,7 @@ import { FichePersonne } from "./fichePersonne/FichePersonne"
 import { personne } from './personnes'; 
 import { notes } from '../notes/notes'; 
 import { FicheNoteEleve } from '../notes/ficheNote/FicheNoteEleve';
+import { FicheNote } from '../notes/ficheNote/FicheNote';
 
 export const NotesParEleve = () => {
 
@@ -11,6 +12,10 @@ export const NotesParEleve = () => {
 
     const eleve = personne.find(personne => personne.id.toString() === id);
     const notesEleve = notes.filter(notes => notes.idPersonne.toString() === id);
+
+    console.log(notesEleve)
+
+    
     return (
         <div>
             <div key={eleve.id}>
@@ -19,7 +24,7 @@ export const NotesParEleve = () => {
             {notesEleve.map(notes => (
                 
                 <div key={notes.id}>
-                    { <FicheNoteEleve idPersonne={notes.idPersonne} matiere={notes.idMatiere} note={notes.note} bareme={notes.bareme} /> }
+                    { <FicheNoteEleve idPersonne={notes.idPersonne} idMatiere={notes.idMatiere} note={notes.note} bareme={notes.bareme} /> }
                 </div>
 
             ))}
