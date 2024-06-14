@@ -12,7 +12,7 @@ export const ListeClasse = ({liste}) => {
                         <div key={index}>
                             <FicheClasse id={value.id} titre={value.titre} />
                             <a href={`/eleve-par-classe/${value.id}`}>
-                                Go to Page {value.id}
+                                Voir les élèves de {value.titre} 
                             </a>
                         </div>
                     );

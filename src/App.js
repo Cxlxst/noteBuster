@@ -32,7 +32,7 @@ function App() {
       <a href={`/eleve`}>
         Voir la liste des élèves
       </a>
-
+      <br/>
       <a href={`/professeur`}>
         Voir la liste des professeurs
       </a>
